@@ -9,7 +9,7 @@ Six practical tips for securing your container-based deployment
 ## Image scanning
 
 * [Docker Enterprise Edition image scanning](https://docs.docker.com/ee/#secure-supply-chain)
-* [MicroScanner](https://github.com/aquasecurity/microscanner
+* [MicroScanner](https://github.com/aquasecurity/microscanner)
 
 ## Container OS
 
