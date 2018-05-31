@@ -1,0 +1,22 @@
+version: "3"
+services:
+  database:
+    image: postgres
+    ports:
+     - 5432:5432
+    networks:
+     - sql
+  application:
+    build:
+      context: .
+    environment:
+     - POSTGRES_PASSWORD=insecurepassword
+    ports:
+     - 80:80
+    networks:
+     - sql
+    depends_on:
+     - database
+networks:
+  sql:
+    external: false
