@@ -36,3 +36,8 @@ Protecting you from attacks that cause your containers to behave in unexpected w
 * Default Docker [AppArmor](https://docs.docker.com/engine/security/apparmor/) and [seccomp](https://docs.docker.com/engine/security/seccomp/) profiles
 * Aqua's [runtime protection](https://www.aquasec.com/use-cases/container-runtime-protection/)
 
+# See also
+
+* xkcd on [security advice](https://xkcd.com/1820/) and [SQL injection](https://xkcd.com/327/)
+* [GDPR regulations](https://publications.europa.eu/en/publication-detail/-/publication/3e485e15-11bd-11e6-ba9a-01aa75ed71a1/language-en)
+* [PCI standards](https://www.pcisecuritystandards.org/documents/PCI_DSS_v3-2-1.pdf?agreement=true&time=1528365009327)
