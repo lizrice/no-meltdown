@@ -54,7 +54,7 @@ func main() {
 		// safe if you use the language SQL construction tools!
 		// rows, err := db.Query("SELECT name, age FROM Students WHERE name=?", qname)
 		if err != nil {
-			fmt.Printf("error: %v", err)
+			fmt.Fprintf(w, "error: %v\n", err)
 			return
 		}
 		defer rows.Close()
