@@ -1,0 +1,21 @@
+version: "3"
+services:
+  nginx:
+    build:
+      context: .
+    ports:
+     - 443:443
+    networks:
+     - web
+  testssl:
+    build:
+      context: .
+      dockerfile: Dockerfile.testssl
+    command: -U nginx:443
+    networks:
+     - web
+    depends_on:
+     - nginx
+networks:
+  web:
+    external: false
