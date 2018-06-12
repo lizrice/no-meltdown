@@ -11,7 +11,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.testssl
-    command: -U nginx:443
+    command: -p --poodle --logjam --beast nginx:443
     networks:
      - web
     depends_on:
