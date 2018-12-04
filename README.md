@@ -12,6 +12,8 @@ Protecting against common attack vectors like SQL injection.
 ## TLS scanning
 Protecting you from leaving your connections unsecured.
 
+* [testSSL](https://testssl.sh/)
+
 ## Image scanning
 Protecting you from known exploits.
 
