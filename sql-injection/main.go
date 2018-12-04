@@ -52,7 +52,7 @@ func main() {
 		log.Println(query)
 		rows, err := db.Query(query)
 		// safe if you use the language SQL construction tools!
-		// rows, err := db.Query("SELECT name, age FROM Students WHERE name=?", qname)
+		// rows, err := db.Query("SELECT name, age FROM Students WHERE name=$1", qname)
 		if err != nil {
 			fmt.Fprintf(w, "error: %v\n", err)
 			return
